@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          1.0_8
-Release:          1
+Release:          2
 Summary:          Estimation/multiple Imputation for Mixed Categorical and Continuous Data
 Group:            Sciences/Mathematics
 License:          Unlimited
@@ -41,3 +41,11 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/data
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
+
+
+%changelog
+* Fri Feb 17 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.0_8-1
++ Revision: 775856
+- Import R-mix
+- Import R-mix
+
