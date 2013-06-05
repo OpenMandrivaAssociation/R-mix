@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          1.0_8
-Release:          2
+Version:          1.0.8
+Release:          1
 Summary:          Estimation/multiple Imputation for Mixed Categorical and Continuous Data
 Group:            Sciences/Mathematics
 License:          Unlimited
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_1.0-8.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/mix_1.0-8.tar.gz
 Requires:         R-stats 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-stats
 
@@ -48,4 +48,5 @@ rm -f %{buildroot}%{rlibdir}/R.css
 + Revision: 775856
 - Import R-mix
 - Import R-mix
+
 
