@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          1.0_8
-Release:          2
+Release:          3
 Summary:          Estimation/multiple Imputation for Mixed Categorical and Continuous Data
 Group:            Sciences/Mathematics
 License:          Unlimited
